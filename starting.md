@@ -34,7 +34,7 @@ c.NotebookApp.port = 8888
 you can choose which port you want your notebook server to listen to, in this case it's 8888. Be sure that matches the SG configuration on step 1
 
 
-## 3. Connect to the Notebook from your local machine
+# 3. Connect to the Notebook from your local machine
 
 - create an SSH tunnel between your local machine and the Jupyter notebook server by running: `ssh -i <the private key to connect to the instance> -L 8157:127.0.0.1:8888 ubuntu@<DNS/PublicIP of the Instance>`
 - open a browser and point it to `https://127.0.0.1:8157`
